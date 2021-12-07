@@ -1,3 +1,5 @@
+
+
 async def get_reward(gameplayer, round_id, game_round):
     all = await gameplayer.find_all().to_list()
     for player in all:

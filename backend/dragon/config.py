@@ -7,6 +7,7 @@ class BaseConfig:
     MONGODB_URL: str = os.environ.get("MONGODB_URL", "mongodb://localhost:27017")
     MONGODB_DATABASE_NAME: str = os.environ.get("MONGODB_DATABASE_NAME", "dt")
 
+
     
 class DevelopmentConfig(BaseConfig):
     pass

@@ -5,6 +5,7 @@ from beanie import PydanticObjectId
 from .quieries import get_or_create_game_round
 from .winner import winner
 
+
 sio = socketio.AsyncServer(async_mode="asgi", cors_allowed_origins=[])
 s_app = socketio.ASGIApp(sio)
 

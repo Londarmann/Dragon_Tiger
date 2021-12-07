@@ -1,3 +1,5 @@
+
+
 async def place_bets(game_player, type, amount):
     if type == "tiger":
         game_player.tiger_bet += amount

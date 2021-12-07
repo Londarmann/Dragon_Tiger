@@ -9,6 +9,7 @@ from dragon.config import settings
 router = APIRouter(prefix="")
 
 
+
 @router.post("/api/create/game", status_code=201, response_model=Game)
 async def create_game(item: Game):
     return await item.save()

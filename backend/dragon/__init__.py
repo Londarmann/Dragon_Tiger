@@ -5,6 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from beanie import init_beanie
 
+
 from .config import settings
 from dragon.apps.documents.document import Round, Game, GamePlayer
 from dragon.apps.routers.game import router

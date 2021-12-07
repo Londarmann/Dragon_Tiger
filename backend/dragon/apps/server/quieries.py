@@ -1,6 +1,8 @@
 from dragon.apps.documents.document import GamePlayer
 
 
+
+
 async def get_or_create_game_player(game_id):
     game_player = await GamePlayer.find_one(GamePlayer.game_round_id == game_id)
     if game_player:

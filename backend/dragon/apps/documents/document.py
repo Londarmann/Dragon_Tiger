@@ -2,6 +2,7 @@ from typing import Optional, List
 from beanie import Document
 
 
+
 class Game(Document):
     name: str
     minBet: Optional[int] = 5
